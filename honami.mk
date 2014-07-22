@@ -46,5 +46,9 @@ PRODUCT_COPY_FILES += \
 # call dalvik heap config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
+#LiquidSmooth OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidhonami
+
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/honami/honami-vendor.mk)
