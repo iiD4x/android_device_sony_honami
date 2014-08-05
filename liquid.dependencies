@@ -7,8 +7,8 @@
   },
   {
     "remote": "gh",
-    "revision": "cm-11.0-new",
-    "repository": "AOSPAL/android_kernel_sony_msm8974",
+    "revision": "cm-11.0",
+    "repository": "zzitoz/android_kernel_sony_msm8974",
     "target_path": "kernel/sony/msm8974"
   },
   {
